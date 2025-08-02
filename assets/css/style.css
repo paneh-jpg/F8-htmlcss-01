@@ -6,6 +6,11 @@
   --primary-color: #0f1b4c;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -195,7 +200,7 @@ a {
 
 /* ============== Guides =============== */
 .guides {
-  padding: 90px 0 79px;
+  padding: 130px 0 29px;
 }
 
 .guides .sub-title {
