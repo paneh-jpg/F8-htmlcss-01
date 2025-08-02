@@ -55,7 +55,7 @@ a {
 /* ============== Header =============== */
 .fixed-header {
   background-color: #e6f0ff;
-  padding-top: 26px;
+  padding-top: 25px;
   position: sticky;
   top: -26px;
   z-index: 1;
@@ -66,7 +66,7 @@ a {
   flex-direction: column;
   position: relative;
   background-color: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -195,8 +195,7 @@ a {
 
 /* ============== Guides =============== */
 .guides {
-  margin-top: 40px;
-  padding: 93px 0 79px;
+  padding: 90px 0 79px;
 }
 
 .guides .sub-title {
