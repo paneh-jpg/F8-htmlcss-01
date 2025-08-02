@@ -167,16 +167,19 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 70px;
 }
 
-.images img:nth-child(3) {
+.clients .images a {
   width: 204px;
   height: 91px;
+  padding: 31.87px 41.18px 22.62px 41.54px;
+}
+
+.clients .images a:hover {
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-  padding: 31.87px 41.18px 22.62px 41.54px;
 }
 
 /* ============== Guides =============== */
